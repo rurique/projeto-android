@@ -76,6 +76,11 @@ main {
     border-bottom-right-radius: 10px;
 }
 
+picture > img {
+    margin: auto;
+    display: block;
+}
+
 footer {
     width: 50%;
     margin: auto;
