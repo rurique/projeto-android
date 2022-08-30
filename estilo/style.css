@@ -125,7 +125,7 @@ h2 {
     font-weight: bold;
     margin: 21px;
     color: var(--cor04);
-    background-image: linear-gradient(to right, #abff8a, transparent);
+    background-image: linear-gradient(to right, var(--cor0), transparent);
 }
 
 p {
