@@ -1,4 +1,4 @@
-@charset "UTF-8"; 
+@charset "UTF-8";
 
 @font-face {
     font-family: bebas;
@@ -23,16 +23,17 @@ header {
     padding: 30px;
 }
 
-header>h1 {
-    margin-bottom: 20px;
+header > h1 {
     color: white;
+    margin-bottom: 20px;
     font-family: bebas, sans-serif;
     font-weight: normal;
     text-align: center;
     text-shadow: 3px 3px 0px black;
+
 }
 
-header>p {
+header > p {
     color: white;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
@@ -52,19 +53,18 @@ nav {
 
 nav > a {
     color: white;
+    text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: normal;
     padding: 10px;
-    text-decoration: none;
 }
 
 nav > a:hover {
-    margin-bottom: 20px;
     background-color: var(--cor0);
     color: var(--cor04);
-    text-decoration: underline;
-    font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-decoration: underline;
     transition-duration: 1s;
 }
 
@@ -84,22 +84,24 @@ main {
     border-bottom-right-radius: 10px;
 }
 
-article > h1 {
+article h1 {
     background-image: linear-gradient(to right, var(--cor0), transparent);
-    font-weight: bold;
     margin: 21px;
     font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+
 }
 
 p {
     color: black;
-    font-family: Arial, Helvetica, sans-serif;
-    text-indent: 30px;
-    padding: 10px;
-    text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        text-indent: 30px;
+        padding: 10px;
+        text-align: center;
 }
 
-img.danDroids {
+img.pequena {
+    max-width: 750px;
     display: block;
     margin: auto;
 }
@@ -124,4 +126,3 @@ footer>p>a {
 footer>p>a:hover {
     text-decoration: underline;
 }
-
